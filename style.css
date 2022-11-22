@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+@font-face {
+  font-family: polya;
+  src: url(font/POLYA.otf);
+}
+@font-face {
+  font-family: futura;
+  src: url(font/OPTIFuturaDemiBold.otf);
+}
+@font-face {
+  font-family: pricedown;
+  src: url(font/pricedown\ bl.otf);
+}
+@font-face {
+  font-family: portabella;
+  src: url(font/Natural\ Portabella.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5vw;
+  font-family: portabella;
+  padding: 10%;
+}
+.header h2 {
+  color: rgb(0, 0, 0);
+}
+.header h2 span {
+  color: rgb(113, 113, 113);
+  cursor: pointer;
+  text-decoration: underline;
+}
+.header h2 span:hover {
+  color: rgba(0, 0, 0, 0.846);
+}
+.header h4 {
+  position: absolute;
+  transform: rotate(90deg);
+  right: 0;
+  bottom: 15%;
+  font-size: 15px;
+  color: rgba(43, 43, 43, 0.86);
+  cursor: pointer;
+}
+.galery {
+  background-color: black;
+  color: white;
+  font-family: ubuntu;
+  width: 100%;
+  height: 100vh;
+}
+.content-pertama {
+  font-family: ubuntu;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.5vw;
+  padding: 10%;
+}
+.content-kedua {
+  font-family: ubuntu;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.5vw;
+  padding: 10%;
+  background-color: black;
+  color: white;
+}
+.content-ketiga {
+  font-family: ubuntu;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.5vw;
+  padding: 10%;
+}
+@media only screen and (max-width: 600px) {
+  .header h4 {
+    transform: rotate(0);
+    bottom: 7px;
+    right: 10px;
+    font-size: 6px;
+  }
+}
